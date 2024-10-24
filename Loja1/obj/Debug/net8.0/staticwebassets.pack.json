@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\carousel11.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\carousel12.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\carousel13.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel13.jpg"
+    },
+    {
       "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
