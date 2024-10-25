@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\views\\lanches\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\views\\lanches\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -45,6 +46,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\migrations\\20241024010828_popularcategoriais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\migrations\\20241024010828_popularcategoriais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\migrations\\20241024013405_populandocategoriais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\migrations\\20241024013405_populandocategoriais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> edc048a7a8b40c64f58f6101c18549fe0d8ef2dc
     }
   ],
   "DocumentGroupContainers": [
@@ -63,6 +72,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Views\\Lanches\\List.cshtml",
               "RelativeDocumentMoniker": "Loja1\\Views\\Lanches\\List.cshtml",
@@ -71,11 +81,22 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-25T02:51:05.192Z",
+=======
+              "Title": "20241024010828_PopularCategoriais.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Migrations\\20241024010828_PopularCategoriais.cs",
+              "RelativeDocumentMoniker": "Loja1\\Migrations\\20241024010828_PopularCategoriais.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Migrations\\20241024010828_PopularCategoriais.cs",
+              "RelativeToolTip": "Loja1\\Migrations\\20241024010828_PopularCategoriais.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T01:40:29.253Z",
+>>>>>>> edc048a7a8b40c64f58f6101c18549fe0d8ef2dc
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "LanchesController.cs",
               "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Controllers\\LanchesController.cs",
               "RelativeDocumentMoniker": "Loja1\\Controllers\\LanchesController.cs",
@@ -102,6 +123,8 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+=======
+>>>>>>> edc048a7a8b40c64f58f6101c18549fe0d8ef2dc
               "Title": "20241024013405_PopulandoCategoriais.cs",
               "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Migrations\\20241024013405_PopulandoCategoriais.cs",
               "RelativeDocumentMoniker": "Loja1\\Migrations\\20241024013405_PopulandoCategoriais.cs",
@@ -109,6 +132,7 @@
               "RelativeToolTip": "Loja1\\Migrations\\20241024013405_PopulandoCategoriais.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2024-10-25T02:47:57.455Z",
               "EditorCaption": ""
             },
@@ -201,6 +225,9 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T02:33:34.183Z",
+=======
+              "WhenOpened": "2024-10-24T01:40:28.822Z",
+>>>>>>> edc048a7a8b40c64f58f6101c18549fe0d8ef2dc
               "EditorCaption": ""
             }
           ]
