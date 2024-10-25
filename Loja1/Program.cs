@@ -1,4 +1,6 @@
 using Loja1.Context;
+using Loja1.Repositories;
+using Loja1.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,10 @@ builder.Services.AddControllersWithViews();
 //Registrando o context como serviço 
 builder.Services.AddDbContext<AppDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+builder.Services.AddTransient<ILancheRepository, LancheRepository>();
+
+
 
 
 
