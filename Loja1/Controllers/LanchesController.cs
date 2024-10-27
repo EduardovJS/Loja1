@@ -7,9 +7,9 @@ namespace Loja1.Controllers
     {
         private readonly ILancheRepository _lancheRepository;
 
-        public LanchesController (ILancheRepository lancheRepository)
+        public LanchesController(ILancheRepository lancheRepository)
         {
-            _lancheRepository = lancheRepository;   
+            _lancheRepository = lancheRepository;
         }
 
 
