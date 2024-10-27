@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Migrations\\20241027224221_CarrinhoCompraItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Loja1\\Migrations\\20241027224221_CarrinhoCompraItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\models\\carrinhocompraitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\models\\carrinhocompraitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\models\\lanche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\models\\lanche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\views\\lanches\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\views\\lanches\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -19,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\viewmodels\\lanchelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\models\\lanche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\models\\lanche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -34,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Views\\Lanches\\List.cshtml",
               "RelativeDocumentMoniker": "Loja1\\Views\\Lanches\\List.cshtml",
               "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Views\\Lanches\\List.cshtml",
               "RelativeToolTip": "Loja1\\Views\\Lanches\\List.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-27T21:35:25.044Z",
               "IsPinned": true,
@@ -52,7 +68,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241027224221_CarrinhoCompraItem.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Migrations\\20241027224221_CarrinhoCompraItem.cs",
+              "RelativeDocumentMoniker": "Loja1\\Migrations\\20241027224221_CarrinhoCompraItem.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Migrations\\20241027224221_CarrinhoCompraItem.cs",
+              "RelativeToolTip": "Loja1\\Migrations\\20241027224221_CarrinhoCompraItem.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T22:42:21.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Loja1\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Models\\Categoria.cs",
+              "RelativeToolTip": "Loja1\\Models\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T21:30:23.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Loja1\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Loja1\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T22:34:58.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarrinhoCompraItem.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Models\\CarrinhoCompraItem.cs",
+              "RelativeDocumentMoniker": "Loja1\\Models\\CarrinhoCompraItem.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Models\\CarrinhoCompraItem.cs",
+              "RelativeToolTip": "Loja1\\Models\\CarrinhoCompraItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T22:34:00.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "_LanchesResumo.cshtml",
               "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Views\\Shared\\_LanchesResumo.cshtml",
               "RelativeDocumentMoniker": "Loja1\\Views\\Shared\\_LanchesResumo.cshtml",
@@ -69,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Loja1\\Views\\_ViewImports.cshtml",
@@ -95,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "LanchesController.cs",
               "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Controllers\\LanchesController.cs",
               "RelativeDocumentMoniker": "Loja1\\Controllers\\LanchesController.cs",
@@ -108,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "LancheListViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\ViewModels\\LancheListViewModel.cs",
               "RelativeDocumentMoniker": "Loja1\\ViewModels\\LancheListViewModel.cs",
