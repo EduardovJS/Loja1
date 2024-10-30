@@ -13,14 +13,14 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddTransient<ILancheRepository, LancheRepository>();
+
+//Recuperar uma instancia de um httpcontextacessor
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+
+
 builder.Services.AddMemoryCache();
 builder.Services.AddSession();
-
-
-
-
-
 
 var app = builder.Build();
 
@@ -32,13 +32,10 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseSession(); 
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.UseSession();
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(
