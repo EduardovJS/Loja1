@@ -14,7 +14,7 @@ namespace Loja1.Models
         public string CarrinhoCompraId { get; set; }
         public List<CarrinhoCompra> CarrinhoComprasItems { get; set; }
 
-        public static CarrinhoCompra GetCarrinho (IServiceProvider services)
+        public static CarrinhoCompra GetCarrinho(IServiceProvider services)
         {
             //definindo sessão
             ISession session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
@@ -30,8 +30,34 @@ namespace Loja1.Models
             {
                 CarrinhoCompraId = carrinhoId,
             };
-
         }
+
+        public void AdicionarAoCarrinho(Lanche lanche)
+        {
+            // Atende o unico elemento das  duas condições SingleOrDefault
+            var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(x => x.Lanches.LancheId == lanche.LancheId && x.CarrinhoCompraId == CarrinhoCompraId);
+
+            if (carrinhoCompraItem == null)
+            {
+                carrinhoCompraItem = new CarrinhoCompraItem
+                {
+                    CarrinhoCompraId = CarrinhoCompraId,
+                    Lanches = lanche,
+                    Quantidade = 1
+                };
+                _context.CarrinhoCompraItens.Add(carrinhoCompraItem);
+            }
+            else
+            {
+                carrinhoCompraItem.Quantidade++;
+            }
+            _context.SaveChanges();
+        }
+
+
+
+
+
 
     }
 }
