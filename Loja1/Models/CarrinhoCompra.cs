@@ -54,6 +54,33 @@ namespace Loja1.Models
             _context.SaveChanges();
         }
 
+        public void RemoverDoCarrinho(Lanche lanche)
+        {
+            var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(x => x.Lanches.LancheId == lanche.LancheId && x.CarrinhoCompraId == CarrinhoCompraId);
+
+            if(carrinhoCompraItem != null)
+            {
+                //Se for maior que um decrementa, se não simplesmente remove do CarrinhoCompraItens
+                if(carrinhoCompraItem.Quantidade > 1)
+                {
+                    carrinhoCompraItem.Quantidade--;
+                }
+                else
+                {
+                    _context.CarrinhoCompraItens.Remove(carrinhoCompraItem);
+                }
+
+            }
+            _context.SaveChanges();
+        }
+
+
+
+
+
+
+
+
 
 
 
