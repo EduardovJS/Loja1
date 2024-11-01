@@ -1,4 +1,5 @@
 ﻿using Loja1.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace Loja1.Models
 {
@@ -12,7 +13,7 @@ namespace Loja1.Models
         }
 
         public string CarrinhoCompraId { get; set; }
-        public List<CarrinhoCompra> CarrinhoComprasItems { get; set; }
+        public List<CarrinhoCompraItem> CarrinhoComprasItems { get; set; }
 
         public static CarrinhoCompra GetCarrinho(IServiceProvider services)
         {
@@ -58,10 +59,10 @@ namespace Loja1.Models
         {
             var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(x => x.Lanches.LancheId == lanche.LancheId && x.CarrinhoCompraId == CarrinhoCompraId);
 
-            if(carrinhoCompraItem != null)
+            if (carrinhoCompraItem != null)
             {
                 //Se for maior que um decrementa, se não simplesmente remove do CarrinhoCompraItens
-                if(carrinhoCompraItem.Quantidade > 1)
+                if (carrinhoCompraItem.Quantidade > 1)
                 {
                     carrinhoCompraItem.Quantidade--;
                 }
@@ -72,6 +73,27 @@ namespace Loja1.Models
 
             }
             _context.SaveChanges();
+        }
+
+        public List<CarrinhoCompraItem> GetCarrinhoCompraItems()
+        {
+            return CarrinhoComprasItems ?? (CarrinhoComprasItems = _context.CarrinhoCompraItens.Where(x => x.CarrinhoCompraId == CarrinhoCompraId).Include(x => x.Lanches).ToList());
+        }
+
+        public void LimparCarrinho()
+        {
+            var carrinhoItens = _context.CarrinhoCompraItens.Where(x => x.CarrinhoCompraId == CarrinhoCompraId);
+
+            _context.CarrinhoCompraItens.RemoveRange(carrinhoItens);
+
+            _context.SaveChanges();
+        }
+
+        public decimal GetCarrinhoCompraTotal()
+        {
+            var total = _context.CarrinhoCompraItens.Where(x=> x.CarrinhoCompraId == CarrinhoCompraId).Select(x=> x.Lanches.Preco * x.Quantidade).Sum(); 
+            
+            return total;   
         }
 
 
