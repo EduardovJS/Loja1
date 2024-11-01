@@ -1,4 +1,5 @@
 using Loja1.Context;
+using Loja1.Models;
 using Loja1.Repositories;
 using Loja1.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddTransient<ILancheRepository, LancheRepository>();
+builder.Services.AddScoped(x => CarrinhoCompra.GetCarrinho(x));
 
 //Recuperar uma instancia de um httpcontextacessor
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
