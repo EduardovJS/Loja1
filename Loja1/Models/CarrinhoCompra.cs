@@ -1,4 +1,5 @@
 ﻿using Loja1.Context;
+using Loja1.Migrations;
 using Microsoft.EntityFrameworkCore;
 
 namespace Loja1.Models
@@ -13,23 +14,26 @@ namespace Loja1.Models
         }
 
         public string CarrinhoCompraId { get; set; }
-        public List<CarrinhoCompraItem> CarrinhoComprasItems { get; set; }
-
+        public List<CarrinhoCompraItem> CarrinhoComprasItens { get; set; }
         public static CarrinhoCompra GetCarrinho(IServiceProvider services)
         {
-            //definindo sessão
-            ISession session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
+            //define uma sessão
+            ISession session =
+                services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
 
-            //obtem um serviço do tipo nosso context
+            //obtem um serviço do tipo do nosso contexto 
             var context = services.GetService<AppDbContext>();
 
-            // atribui o id do carrinho na session
+            //obtem ou gera o Id do carrinho
             string carrinhoId = session.GetString("CarrinhoId") ?? Guid.NewGuid().ToString();
 
+            //atribui o id do carrinho na Sessão
+            session.SetString("CarrinhoId", carrinhoId);
 
+            //retorna o carrinho com o contexto e o Id atribuido ou obtido
             return new CarrinhoCompra(context)
             {
-                CarrinhoCompraId = carrinhoId,
+                CarrinhoCompraId = carrinhoId
             };
         }
 
@@ -75,10 +79,16 @@ namespace Loja1.Models
             _context.SaveChanges();
         }
 
-        public List<CarrinhoCompraItem> GetCarrinhoCompraItems()
+
+        public List<CarrinhoCompraItem> GetCarrinhoCompraItens()
         {
-            return CarrinhoComprasItems ?? (CarrinhoComprasItems = _context.CarrinhoCompraItens.Where(x => x.CarrinhoCompraId == CarrinhoCompraId).Include(x => x.Lanches).ToList());
+            return CarrinhoComprasItens ??
+                   (CarrinhoComprasItens =
+                       _context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
+                           .Include(s => s.Lanches)
+                           .ToList());
         }
+
 
         public void LimparCarrinho()
         {
@@ -91,22 +101,9 @@ namespace Loja1.Models
 
         public decimal GetCarrinhoCompraTotal()
         {
-            var total = _context.CarrinhoCompraItens.Where(x=> x.CarrinhoCompraId == CarrinhoCompraId).Select(x=> x.Lanches.Preco * x.Quantidade).Sum(); 
-            
-            return total;   
+            var total = _context.CarrinhoCompraItens.Where(x => x.CarrinhoCompraId == CarrinhoCompraId).Select(x => x.Lanches.Preco * x.Quantidade).Sum();
+
+            return total;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

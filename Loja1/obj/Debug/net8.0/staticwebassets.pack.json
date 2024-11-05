@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\Full-Cart-icon (1).png",
+      "PackagePath": "staticwebassets\\img\\Full-Cart-icon (1).png"
+    },
+    {
       "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\carousel11.jpg",
       "PackagePath": "staticwebassets\\img\\carousel11.jpg"
     },
@@ -23,6 +27,14 @@
     {
       "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\carousel13.jpg",
       "PackagePath": "staticwebassets\\img\\carousel13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\delete (1).png",
+      "PackagePath": "staticwebassets\\img\\delete (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\remove.ico",
+      "PackagePath": "staticwebassets\\img\\remove.ico"
     },
     {
       "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\js\\site.js",
