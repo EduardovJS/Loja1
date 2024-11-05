@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "46J2KkK1apKCd6ytEIEUCFstsXvuekP24RwYCtO00VM=",
+  "Hash": "Lq0rv+LZlyUikrMSdIYcMLPLXbKGdPrPlu4gluTApg4=",
   "Source": "Loja1",
   "BasePath": "_content/Loja1",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\carousel13.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\cart-5-16.ico",
+      "SourceId": "Loja1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\",
+      "BasePath": "_content/Loja1",
+      "RelativePath": "img/cart-5-16.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cart-5-16.ico"
     },
     {
       "Identity": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\delete (1).png",

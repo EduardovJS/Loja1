@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\views\\carrinhocompra\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\views\\carrinhocompra\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eduardo\\AppData\\Local\\Temp\\d219897b-f7aa-4b83-98be-607028e9ae7e_20_CarrinhoCompraController_View (1).zip.e7e\\LanchesMac\\LanchesMac\\Models\\CarrinhoCompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eduardo\\AppData\\Local\\Temp\\e0497803-6636-4303-ae92-ea7dcdafd6ee_23_ViewComponent.zip.6ee\\LanchesMac\\LanchesMac\\Views\\CarrinhoCompra\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,37 +17,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CarrinhoCompra.cs",
-              "DocumentMoniker": "C:\\Users\\Eduardo\\AppData\\Local\\Temp\\d219897b-f7aa-4b83-98be-607028e9ae7e_20_CarrinhoCompraController_View (1).zip.e7e\\LanchesMac\\LanchesMac\\Models\\CarrinhoCompra.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\d219897b-f7aa-4b83-98be-607028e9ae7e_20_CarrinhoCompraController_View (1).zip.e7e\\LanchesMac\\LanchesMac\\Models\\CarrinhoCompra.cs",
-              "ToolTip": "C:\\Users\\Eduardo\\AppData\\Local\\Temp\\d219897b-f7aa-4b83-98be-607028e9ae7e_20_CarrinhoCompraController_View (1).zip.e7e\\LanchesMac\\LanchesMac\\Models\\CarrinhoCompra.cs [Somente Leitura]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\d219897b-f7aa-4b83-98be-607028e9ae7e_20_CarrinhoCompraController_View (1).zip.e7e\\LanchesMac\\LanchesMac\\Models\\CarrinhoCompra.cs [Somente Leitura]",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAFwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T07:45:23.765Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\AppData\\Local\\Temp\\e0497803-6636-4303-ae92-ea7dcdafd6ee_23_ViewComponent.zip.6ee\\LanchesMac\\LanchesMac\\Views\\CarrinhoCompra\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\e0497803-6636-4303-ae92-ea7dcdafd6ee_23_ViewComponent.zip.6ee\\LanchesMac\\LanchesMac\\Views\\CarrinhoCompra\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo\\AppData\\Local\\Temp\\e0497803-6636-4303-ae92-ea7dcdafd6ee_23_ViewComponent.zip.6ee\\LanchesMac\\LanchesMac\\Views\\CarrinhoCompra\\Index.cshtml [Somente Leitura]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\e0497803-6636-4303-ae92-ea7dcdafd6ee_23_ViewComponent.zip.6ee\\LanchesMac\\LanchesMac\\Views\\CarrinhoCompra\\Index.cshtml [Somente Leitura]",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAD0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T09:00:14.985Z",
               "EditorCaption": " [Somente Leitura]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CarrinhoCompra.cs",
-              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Models\\CarrinhoCompra.cs",
-              "RelativeDocumentMoniker": "Loja1\\Models\\CarrinhoCompra.cs",
-              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Models\\CarrinhoCompra.cs",
-              "RelativeToolTip": "Loja1\\Models\\CarrinhoCompra.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAA0wF0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T07:45:26.727Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Views\\CarrinhoCompra\\Index.cshtml",
+              "RelativeDocumentMoniker": "Loja1\\Views\\CarrinhoCompra\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Views\\CarrinhoCompra\\Index.cshtml",
+              "RelativeToolTip": "Loja1\\Views\\CarrinhoCompra\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T08:59:46.642Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
