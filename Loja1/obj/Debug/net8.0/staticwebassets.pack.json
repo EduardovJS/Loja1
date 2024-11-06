@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\Envelope-icon24.png",
+      "PackagePath": "staticwebassets\\img\\Envelope-icon24.png"
+    },
+    {
       "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\Full-Cart-icon (1).png",
       "PackagePath": "staticwebassets\\img\\Full-Cart-icon (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\Home-iconred.png",
+      "PackagePath": "staticwebassets\\img\\Home-iconred.png"
     },
     {
       "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\carousel11.jpg",
@@ -35,6 +43,14 @@
     {
       "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\delete (1).png",
       "PackagePath": "staticwebassets\\img\\delete (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\faleconosco1.jpg",
+      "PackagePath": "staticwebassets\\img\\faleconosco1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\phone-app-icon.png",
+      "PackagePath": "staticwebassets\\img\\phone-app-icon.png"
     },
     {
       "Id": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\wwwroot\\img\\remove.ico",
