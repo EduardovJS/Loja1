@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\views\\contato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\views\\contato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\taghelpers\\emailtaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\taghelpers\\emailtaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\controllers\\lanchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\controllers\\lanchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,37 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Views\\Contato\\Index.cshtml",
-              "RelativeDocumentMoniker": "Loja1\\Views\\Contato\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Views\\Contato\\Index.cshtml",
-              "RelativeToolTip": "Loja1\\Views\\Contato\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T07:31:34.605Z",
+              "Title": "LanchesController.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Controllers\\LanchesController.cs",
+              "RelativeDocumentMoniker": "Loja1\\Controllers\\LanchesController.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Controllers\\LanchesController.cs",
+              "RelativeToolTip": "Loja1\\Controllers\\LanchesController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T08:06:11.935Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmailTagHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\TagHelpers\\EmailTagHelper.cs",
-              "RelativeDocumentMoniker": "Loja1\\TagHelpers\\EmailTagHelper.cs",
-              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\TagHelpers\\EmailTagHelper.cs",
-              "RelativeToolTip": "Loja1\\TagHelpers\\EmailTagHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T07:16:11.127Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
