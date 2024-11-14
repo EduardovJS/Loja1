@@ -28,16 +28,7 @@ namespace Loja1.Controllers
             }
             else
             {
-                if (string.Equals("Normal", categoria, StringComparison.OrdinalIgnoreCase))
-                {
-                    lanches = _lancheRepository.Lanches.Where(l => l.Categoria.CategoriaNome.Equals("Normal")).OrderBy(l => l.Nome);
-                }
-                else
-                {
-                    lanches = _lancheRepository.Lanches.Where(l => l.Categoria.CategoriaNome.Equals("Natural")).OrderBy(l => l.Nome);
-                }
-                categoriaAtual = categoria;
-
+                lanches = _lancheRepository.Lanches.Where(l => l.Categoria.CategoriaNome.Equals(categoria)).OrderBy(c => c.Nome);
             }
             var lancheListViewModel = new LancheListViewModel
             {
@@ -45,6 +36,13 @@ namespace Loja1.Controllers
                 CategoriaAtual = categoriaAtual,
             };
             return View(lancheListViewModel);
+        } 
+
+        public IActionResult Details(int id)
+        {
+            var lanches = _lancheRepository.Lanches.FirstOrDefault(c => c.LancheId == id);
+            return View(lanches);
         }
+
     }
 }
