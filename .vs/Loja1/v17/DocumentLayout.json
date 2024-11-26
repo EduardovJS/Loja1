@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\components\\carrinhocompraresumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\components\\carrinhocompraresumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Migrations\\20241126002810_PedidoDetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Loja1\\Migrations\\20241126002810_PedidoDetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\views\\shared\\components\\carrinhocompraresumo\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\views\\shared\\components\\carrinhocompraresumo\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\models\\pedidodetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\models\\pedidodetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\components\\categoriamenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\components\\categoriamenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|c:\\users\\eduardo\\desktop\\loja\\loja1\\loja1\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6940EE7E-716A-41B7-9AC1-92CC945E4A91}|Loja1\\Loja1.csproj|solutionrelative:loja1\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Views\\Shared\\Components\\CarrinhoCompraResumo\\Default.cshtml",
-              "RelativeDocumentMoniker": "Loja1\\Views\\Shared\\Components\\CarrinhoCompraResumo\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Views\\Shared\\Components\\CarrinhoCompraResumo\\Default.cshtml",
-              "RelativeToolTip": "Loja1\\Views\\Shared\\Components\\CarrinhoCompraResumo\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T00:27:09.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CarrinhoCompraResumo.cs",
-              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Components\\CarrinhoCompraResumo.cs",
-              "RelativeDocumentMoniker": "Loja1\\Components\\CarrinhoCompraResumo.cs",
-              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Components\\CarrinhoCompraResumo.cs",
-              "RelativeToolTip": "Loja1\\Components\\CarrinhoCompraResumo.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Title": "20241126002810_PedidoDetalhe.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Migrations\\20241126002810_PedidoDetalhe.cs",
+              "RelativeDocumentMoniker": "Loja1\\Migrations\\20241126002810_PedidoDetalhe.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Migrations\\20241126002810_PedidoDetalhe.cs",
+              "RelativeToolTip": "Loja1\\Migrations\\20241126002810_PedidoDetalhe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T00:26:39.124Z",
+              "WhenOpened": "2024-11-26T00:28:10.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CategoriaMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Components\\CategoriaMenu.cs",
-              "RelativeDocumentMoniker": "Loja1\\Components\\CategoriaMenu.cs",
-              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Components\\CategoriaMenu.cs",
-              "RelativeToolTip": "Loja1\\Components\\CategoriaMenu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "Loja1\\Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Models\\Pedido.cs",
+              "RelativeToolTip": "Loja1\\Models\\Pedido.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAuwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T00:26:32.187Z"
+              "WhenOpened": "2024-11-26T00:20:45.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PedidoDetalhe.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Models\\PedidoDetalhe.cs",
+              "RelativeDocumentMoniker": "Loja1\\Models\\PedidoDetalhe.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Desktop\\Loja\\Loja1\\Loja1\\Models\\PedidoDetalhe.cs",
+              "RelativeToolTip": "Loja1\\Models\\PedidoDetalhe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T00:02:05.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
