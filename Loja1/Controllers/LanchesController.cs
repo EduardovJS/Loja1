@@ -14,7 +14,6 @@ namespace Loja1.Controllers
             _lancheRepository = lancheRepository;
         }
 
-
         public IActionResult List(string categoria)
         {
 
@@ -36,13 +35,42 @@ namespace Loja1.Controllers
                 CategoriaAtual = categoriaAtual,
             };
             return View(lancheListViewModel);
-        } 
+        }
 
         public IActionResult Details(int id)
         {
             var lanches = _lancheRepository.Lanches.FirstOrDefault(c => c.LancheId == id);
             return View(lanches);
         }
+
+        public ViewResult Search(string searchstring)
+        {
+            IEnumerable<Lanche> lanches;
+            string categoriaAtual = string.Empty;
+
+            if (string.IsNullOrEmpty(searchstring))
+            {
+                lanches = _lancheRepository.Lanches.OrderBy(x => x.LancheId);
+                categoriaAtual = "Todos os Lanches";
+            }
+            else
+            {
+                lanches = _lancheRepository.Lanches.Where(x => x.Nome.ToLower().Contains(searchstring.ToLower()));
+
+                if (lanches.Any())
+                    categoriaAtual = "Lanches";
+                else
+                    categoriaAtual = "Nenhum lanche foi encontrado";
+            }
+
+            return View("~/Views/Lanches/List.cshtml", new LancheListViewModel
+            {
+                Lanches = lanches,
+                CategoriaAtual = categoriaAtual,
+            });
+        }
+
+
 
     }
 }
