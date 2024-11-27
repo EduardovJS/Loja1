@@ -7,7 +7,6 @@ namespace Loja1.Models
     {
         public int PedidoId { get; set; }
 
-
         [Required(ErrorMessage = "Informe o nome")]
         [StringLength(50)]
         public string Nome { get; set; }

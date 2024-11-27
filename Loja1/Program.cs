@@ -15,6 +15,7 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 builder.Services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddTransient<ILancheRepository, LancheRepository>();
 builder.Services.AddScoped(x => CarrinhoCompra.GetCarrinho(x));
+builder.Services.AddTransient<IPedidoRepository, PedidoRepository>();   
 
 //Recuperar uma instancia de um httpcontextacessor
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();

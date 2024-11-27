@@ -11,7 +11,7 @@ namespace Loja1.Context
         public DbSet<Lanche> Lanches { get; set; }
         public DbSet<CarrinhoCompraItem> CarrinhoCompraItens { get; set; }
         public DbSet<PedidoDetalhe> PedidoDetalhe { get; set; }
-        public DbSet<PedidoDetalhe> Pedido { get; set; }
+        public DbSet<Pedido> Pedido { get; set; }
 
 
 
